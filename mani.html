@@ -133,6 +133,7 @@ EntreesImages = [
   'url("http://mexicoviejowichita.com/communities/4/000/001/345/254//images/2692556.png")',
   'url("http://anthonysgourmetcatering.com/wp-content/uploads/2012/07/chicken-2.png")',
   'url("https://swadtandoorinewlondon.com/public/img/product/thumb/seafood.png")',
+  'url("http://marathonseafoodfestival.com/wp-content/blogs.dir/252/files/seafood-festival/paella-25.png")',
 ]
 
 AppetizersDivs = [
@@ -150,6 +151,7 @@ EntreesDivs = [
   '<div class="item"><p>Stir fry shirmp<span class="price">$16</span><br /><small>Stewed in a teryki sauce. </small></p></div>',
  '<div class="item"><p>Pasta with Curry shrimp<span class="price">$18</span><br /><small>homemade spun pasta with indian curry. </small></p></div>',
  '<div class="item"><p>Seafood feast<span class="price">$32</span><br /><small>Steamed with butter and garlic seasoning wuth vegtabales. </small></p></div>',
+ '<div class="item"><p>Seafood Rice<span class="price">$18</span><br /><small>Steamed garlic shrimp with basmati yellow rice. </small></p></div>',
 ]
 
 function Desserts() {
@@ -171,6 +173,7 @@ function Entrees() {
   ice.innerHTML += EntreesDivs[0]
   ice.innerHTML += EntreesDivs[1]
   ice.innerHTML += EntreesDivs[2]
+  ice.innerHTML += EntreesDivs[3]
   items = document.getElementsByClassName("item")
   for (i=0; i<3; i=i+1) {
 		items[i].style.background = EntreesImages[i]
